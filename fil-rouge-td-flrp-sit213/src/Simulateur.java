@@ -226,7 +226,7 @@ import java.io.PrintWriter;
                 i++; 
              	// traiter la valeur associee
            //     messageStringTemporaire = args[i];
-                if (messageString.matches("[1-9][0-9]*")) {
+                if (args[i].matches("[1-9][0-9]*")) {
                    nbEch = new Integer(args[i]);
                 } 
                 else 
